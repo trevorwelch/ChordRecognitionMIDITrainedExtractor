@@ -20,7 +20,7 @@ def get_chroma(audiofile=None, y=None, modeldir=C.DEFAULT_CONVNETFILE):
     if y is None and audiofile is None:
         raise ValueError("Either audiofile or y variables must be passed to get_chroma function")
     elif y is None:
-        y,sr = load(audiofile,sr=C.SR)
+        y,sr = load(audiofile,sr=C.SR, mono=True)
     
     #extract Harmonic-CQT from audio
     fmin = note_to_hz("C1")

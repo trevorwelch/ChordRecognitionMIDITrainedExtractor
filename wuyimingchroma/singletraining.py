@@ -7,11 +7,11 @@ Created on Thu Oct 12 23:50:30 2017
 @author: wuyiming
 """
 
-import training
+from . import training
 import numpy as np
-import evaluation
-import const as C
-import utils
+from . import evaluation
+from . import const as C
+from . import utils
 
 #training.TrainConvnetExtractor(np.arange(500),epoch=15,saveas=C.DEFAULT_CONVNETFILE)
 

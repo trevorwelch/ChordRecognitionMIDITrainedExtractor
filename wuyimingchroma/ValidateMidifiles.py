@@ -7,7 +7,7 @@ Created on Mon Nov  6 16:26:14 2017
 """
 
 from librosa.util import find_files
-from utils import GetPianoroll
+from . from utils import GetPianoroll
 
 
 midilist = find_files("/home/wuyiming/Projects/TranscriptionChordRecognition/Datas/midi",ext="mid")

@@ -9,7 +9,7 @@ Created on Fri Apr  6 11:39:26 2018
 import numpy as np
 import mir_eval
 from librosa.util import find_files
-import const
+from . import const
 
 labfilelist = np.array(find_files(const.PATH_CHORDLAB,ext="lab"))[195:295]
 

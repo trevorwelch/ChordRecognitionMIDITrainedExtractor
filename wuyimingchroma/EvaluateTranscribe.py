@@ -5,14 +5,14 @@ Created on Mon Dec 19 19:03:36 2016
 @author: wuyiming
 """
 
-import training
-import networks
+from . import training
+from . import networks
 import utils
 from librosa.util import find_files
 import numpy as np
 import const
 import chainer.functions as F
-import chromatemplate
+from . import chromatemplate
 import cupy as cp
 import chainer
 

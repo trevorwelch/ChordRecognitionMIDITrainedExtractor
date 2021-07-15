@@ -6,9 +6,9 @@ Created on Wed Jun  6 13:13:37 2018
 @author: wuyiming
 """
 
-import networks as N
+from . import networks as N
 from librosa.core import cqt,load,note_to_hz
-import const as C
+from . import const as C
 import numpy as np
 
 cnn = N.FullCNNFeatExtractor()

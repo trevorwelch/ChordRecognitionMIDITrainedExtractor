@@ -11,8 +11,8 @@ import networks as N
 from librosa.util import find_files
 from librosa.core import cqt,load,note_to_hz
 import os
-import const as C
-import utils as U
+from . import const as C
+from . import utils as U
 import argparse
 
 

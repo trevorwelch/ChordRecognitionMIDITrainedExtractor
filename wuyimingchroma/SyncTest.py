@@ -12,10 +12,10 @@ from librosa.filters import cq_to_chroma
 import mir_eval.sonify as sonify
 import chainer
 import chainer.functions as F
-import utils
+from . import utils
 import numpy as np
-import const
-import networks
+from . import const
+from . import networks
 import cupy as cp
 
 

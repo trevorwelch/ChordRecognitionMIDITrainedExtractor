@@ -10,9 +10,9 @@ import numpy as np
 from librosa.core import cqt,load,note_to_hz
 from librosa.util import find_files
 import pretty_midi
-import const as C
-import utils
-import chromatemplate
+from . import const as C
+from . import utils
+from . import chromatemplate
 
 midilist = find_files(C.PATH_MIDI,ext="mid")
 

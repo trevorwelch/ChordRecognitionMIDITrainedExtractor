@@ -6,16 +6,16 @@ Created on Fri Apr 13 18:55:12 2018
 @author: wuyiming
 """
 
-import networks
+from . import networks
 import numpy as np
 import matplotlib.pyplot as plt
 from librosa.core import load,cqt,note_to_hz
 from librosa.feature import chroma_cqt
 from librosa.display import specshow
-import const as C
+from . import const as C
 from chainer import config
-import utils as U
-import chromatemplate
+from . import utils as U
+from . import chromatemplate
 
 
 config.train=False

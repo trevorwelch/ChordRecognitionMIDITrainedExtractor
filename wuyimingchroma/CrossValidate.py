@@ -9,7 +9,7 @@ import training
 import numpy as np
 import evaluation
 import time
-import const as C
+from . import const as C
 
 idx = np.load("fold.npy",encoding="bytes")
 

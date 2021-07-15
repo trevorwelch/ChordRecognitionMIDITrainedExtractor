@@ -9,7 +9,7 @@ Created on Fri Nov  9 12:53:00 2018
 import numpy as np
 from librosa.core import cqt,load,note_to_hz
 from librosa.util import find_files
-import const as C
+from . import const as C
 import os
 
 audiolist = find_files("Datas/audios_train")

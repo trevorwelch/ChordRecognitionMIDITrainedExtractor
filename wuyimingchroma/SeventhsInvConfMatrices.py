@@ -9,7 +9,7 @@ Created on Fri Apr  6 12:33:48 2018
 import evaluation
 import numpy as np
 import matplotlib.pyplot as plt
-import const
+from . import const
 from librosa.util import find_files
 import itertools
 

@@ -9,8 +9,8 @@ Created on Thu Oct 12 18:59:08 2017
 from chainer import Chain,serializers,ChainList,Variable,cuda
 import chainer.links as L
 import chainer.functions as F
-import const
-import utils
+from . import const
+from . import utils
 
 import numpy as np
 cp = cuda.cupy

@@ -9,10 +9,10 @@ Created on Fri Oct 13 02:47:22 2017
 import mir_eval
 import numpy as np
 from librosa.util import find_files
-import const
-import ChordVocabulary as voc
-import utils
-import networks
+from . import const
+from . import ChordVocabulary as voc
+from . import utils
+from . import networks
 import chainer
 
 cp = chainer.cuda.cupy

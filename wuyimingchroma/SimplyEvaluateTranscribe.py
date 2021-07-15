@@ -6,10 +6,10 @@ Created on Fri Oct 13 19:34:44 2017
 @author: wuyiming
 """
 
-import networks
+from . import networks
 from librosa.util import find_files
 import numpy as np
-import const
+from . import const
 
 def evaluate(predicted,target):
     predicted = np.concatenate(predicted)

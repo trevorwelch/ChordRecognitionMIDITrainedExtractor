@@ -7,9 +7,9 @@ Created on Thu Oct 12 22:17:09 2017
 """
 
 import numpy as np
-from custommidifile import CustomMIDIFile
-import const
-import ChordVocabulary as voc
+from . custommidifile import CustomMIDIFile
+from . import const
+from . import ChordVocabulary as voc
 from madmom.utils.midi import MIDIFile
 from madmom.utils import suppress_warnings
 from librosa.util import normalize,find_files

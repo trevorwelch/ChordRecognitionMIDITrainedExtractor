@@ -6,14 +6,14 @@ Created on Thu Oct 12 22:00:14 2017
 @author: wuyiming
 """
 
-import networks
+from . import networks
 from librosa.util import find_files,normalize
 import chainer
 from chainer import optimizers,config,optimizer,Variable
 import numpy as np
 import cupy as cp
-import const
-import utils
+from . import const
+from . import utils
 from chromatemplate import GetMultiFeatureFromPianoroll,GetTargetsFromPianoroll,GetConvnetTargetFromPianoroll
 import ChordVocabulary as voc
 

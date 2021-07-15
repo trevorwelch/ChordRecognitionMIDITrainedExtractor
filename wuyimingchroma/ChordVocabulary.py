@@ -9,8 +9,8 @@ from scipy.stats import gmean
 from librosa.util import normalize
 import numpy as np
 from sklearn import svm
-from sklearn.externals import joblib
-import const
+import joblib
+from . import const
 
 Quality = {
     'maj':     0,

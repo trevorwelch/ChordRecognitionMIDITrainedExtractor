@@ -9,7 +9,7 @@ Created on Mon Nov  6 14:38:10 2017
 import numpy as np
 from librosa.core import cqt,load,note_to_hz
 from librosa.util import find_files
-import const as C
+from . import const as C
 
 
 audiolist = find_files(C.PATH_AUDIO)[800:]

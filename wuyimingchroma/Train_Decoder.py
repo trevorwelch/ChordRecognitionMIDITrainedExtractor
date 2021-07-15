@@ -6,8 +6,8 @@ Created on Thu Nov  8 20:00:02 2018
 @author: wuyiming
 """
 
-import training
-import const as C
+from . import training
+from . import const as C
 from librosa.util import find_files
 
 import argparse

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="wuyimingchroma",
-    version="0.0.1",
+    version="0.0.2",
     author="Wu Yiming",
     description="A Yiming Wu and Wei Li chroma extractor",
     long_description=long_description,

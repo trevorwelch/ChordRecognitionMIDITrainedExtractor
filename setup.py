@@ -16,7 +16,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_data=["fullcnn_crossentropy_6000.model",],
+    package_data={"":["fullcnn_crossentropy_6000.model"]}
     install_requires=['chainer>=4.2.0',
                       'librosa>=0.6',
                       'mir_eval>=0.4',

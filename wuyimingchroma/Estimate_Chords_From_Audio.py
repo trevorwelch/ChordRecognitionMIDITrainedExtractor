@@ -26,13 +26,13 @@ def estimate_chords(audiofile):
 
     #extract feature using trained CNN extractor
     cnn_feat_extractor = N.FullCNNFeatExtractor()
-    cnn_feat_extractor.load('fullcnn_crossentropy_6000.model')
+    cnn_feat_extractor.load('../fullcnn_crossentropy_6000.model')
 
     feat = cnn_feat_extractor.GetFeature(U.PreprocessSpec(hcqt)).data
 
     #decode label sequence
     decoder = N.NBLSTMCRF()
-    decoder.load("nblstm_crf.model")
+    decoder.load("../nblstm_crf.model")
 
     labels = decoder.argmax(feat)
 

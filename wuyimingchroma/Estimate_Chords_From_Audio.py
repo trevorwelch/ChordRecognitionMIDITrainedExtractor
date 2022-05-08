@@ -7,7 +7,7 @@ Created on Thu Nov  8 19:08:30 2018
 """
 
 import numpy as np
-import networks as N
+from . import networks as N
 from librosa.util import find_files
 from librosa.core import cqt,load,note_to_hz
 import os

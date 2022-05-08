@@ -37,6 +37,6 @@ def estimate_chords(audiofile):
     labels = decoder.argmax(feat)
 
     #convert into .lab file
-    labfile = os.path.join("Datas/labs_estimated",fname+".lab")
+    labfile = os.path.join("./Datas/labs_estimated",fname+".lab")
     U.SaveEstimatedLabelsFramewise(labels,labfile,feat)
     return labfile

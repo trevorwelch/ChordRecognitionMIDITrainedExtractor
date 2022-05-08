@@ -1,4 +1,4 @@
-# Automatic Audio Chord Recognition with MIDI-Traind Deep Feature and BLSTM-CRF Sequence Decoding Model
+# Automatic Audio Chord Recognition with MIDI-Trained Deep Feature and BLSTM-CRF Sequence Decoding Model
 
 My version of the original work so it can be used as a package
 
